@@ -1,0 +1,22 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "events": {
+    "start": "npm run"
+  },
+  "watch": [
+    "app/"
+  ],
+  "env": {
+    "DEBUG": true,
+    "VUE_DEV": true
+  },
+  "ext": "js json vue css"
+}
